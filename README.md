@@ -6,11 +6,54 @@
 
 # LEGO Sets Business Analytics Dashboard
 
+## Project Highlights
+
+- 📊 Built an interactive Power BI dashboard to analyze **2,669 LEGO sets (1970–2022)**
+- 🧹 Cleaned and transformed raw CSV data using **Power Query**
+- 📈 Created dynamic KPIs using **DAX Measures**
+- 🎯 Implemented slicers, bookmarks, tooltips, and a decomposition tree
+- 🖼️ Added image tooltips for an enhanced user experience
+- 📁 Designed as an end-to-end Business Analytics portfolio project
+
+---
+
+## Tools & Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX
+- CSV Dataset
+- Data Modeling
+- Interactive Visualizations
+
+---
+
 ## Overview
 
 This project is an interactive **Power BI Business Analytics Dashboard** developed to analyze **2,669 LEGO sets released between 1970 and 2022**. Starting with a raw CSV dataset, the project involved data cleaning, transformation, data modeling, DAX calculations, and dashboard development to create an engaging and user-friendly analytical solution.
 
 The dashboard enables users to explore LEGO products by theme, price, age group, and number of pieces while providing dynamic filtering, interactive tooltips, and drill-down analysis for better decision-making.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Project Objectives](#project-objectives)
+- [Data Cleaning & Transformation](#data-cleaning--transformation)
+- [DAX Measures](#dax-measures)
+- [Dashboard Features](#dashboard-features)
+- [Key Insights](#key-insights)
+- [Tech Stack](#tech-stack)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Dashboard Preview](#dashboard-preview)
+- [Repository Structure](#repository-structure)
+- [How to Use](#how-to-use)
+- [Future Enhancements](#future-enhancements)
+- [About This Project](#about-this-project)
+- [License](#license)
 
 ---
 
@@ -31,7 +74,16 @@ This dashboard addresses these challenges by transforming raw product data into 
 
 The dashboard is built using a CSV dataset containing information on LEGO sets released between **1970 and 2022**.
 
-### Dataset includes:
+### Dataset Summary
+
+| Metric | Value |
+|---------|------:|
+| Time Period | 1970–2022 |
+| Total LEGO Sets | 2,669 |
+| Source Format | CSV |
+| Dashboard Tool | Power BI |
+
+### The dataset includes:
 
 - Set Name
 - Set ID
@@ -62,13 +114,26 @@ The dashboard was designed to answer questions such as:
 
 ---
 
+## Business Questions Answered
+
+The dashboard is designed to answer the following business questions:
+
+- How many LEGO sets have been released since 1970?
+- Is there a relationship between price and the number of pieces?
+- Which LEGO themes dominate the product catalog?
+- How are products distributed across different age groups?
+- Which products fall into premium pricing categories?
+- How can users quickly discover sets matching their preferences?
+
+---
+
 ## Data Cleaning & Transformation
 
 The raw CSV dataset was cleaned and prepared using **Power Query** before creating the report.
 
 ### Data preparation steps
 
-- Imported the raw LEGO CSV dataset into Power BI.
+- Imported the raw CSV dataset into Power Query for data cleaning and transformation before loading it into the Power BI data model.
 - Removed unnecessary columns (`minifigs`, `bricksetURL`, and `thumbnailURL`).
 - Verified and corrected data types where required.
 - Filtered out records with missing values for:
@@ -92,9 +157,42 @@ These transformations ensured that the dataset was clean, consistent, and ready 
 
 ---
 
+## Dashboard Development Workflow
+
+```text
+Raw CSV Dataset
+        │
+        ▼
+Power Query
+        │
+        ▼
+Data Cleaning & Transformation
+        │
+        ▼
+Data Modeling
+        │
+        ▼
+DAX Measures
+        │
+        ▼
+Interactive Dashboard
+        │
+        ▼
+Business Insights
+```
+---
+
+## Data Modeling
+
+The cleaned dataset was loaded into the Power BI data model where calculated columns and DAX measures were created to support dynamic reporting and interactive visualizations.
+
+---
+
 ## DAX Measures
 
-The following DAX measures were created to support interactive reporting:
+The dashboard uses DAX measures to calculate dynamic KPIs that respond instantly to user interactions and filters.
+
+The dashboard includes the following DAX measures:
 
 - Total Sets
 - Total Theme Groups
@@ -102,7 +200,8 @@ The following DAX measures were created to support interactive reporting:
 - Average Pieces
 - Average Age
 
-These measures drive the KPI cards and provide dynamic calculations based on user-selected filters.
+These measures power the dashboard's KPI cards and interactive visualizations, ensuring calculations update dynamically based on user selections.
+
 ---
 
 ## Dashboard Features
@@ -128,7 +227,7 @@ Users can filter the dashboard using:
 - Theme Group
 - Theme
 - Age Range
-- Maximum Price (What-If Parameter)
+- Maximum Price What-If Parameter for dynamic filtering
 
 These filters enable quick exploration of specific product categories and customer segments.
 
@@ -201,6 +300,12 @@ Using the interactive dashboard, users can:
 
 ---
 
+## Business Impact
+
+This dashboard transforms raw LEGO product data into an interactive business intelligence solution that enables users to explore trends, compare products, and make data-driven decisions. By combining Power Query, DAX, and interactive Power BI features such as slicers, bookmarks, decomposition trees, and custom image tooltips, the solution enhances data exploration while demonstrating practical Business Analytics and reporting capabilities.
+
+---
+
 ## Tech Stack
 
 | Category | Tools Used |
@@ -217,20 +322,24 @@ Using the interactive dashboard, users can:
 ## Skills Demonstrated
 
 - Business Analytics
+- Power BI
+- Power Query
+- DAX
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- Power Query
-- DAX
-- KPI Development
-- Dashboard Design
+- Dashboard Development
 - Interactive Reporting
-- Data Visualization
+- KPI Development
 - Business Intelligence
+- Data Visualization
 - Analytical Thinking
+
 ---
 
-# Dashboard Preview
+## Dashboard Preview
+
+The following screenshots highlight the dashboard's interactive features, including KPI cards, dynamic filters, product details, decomposition tree analysis, and custom image tooltips.
 
 ## Dashboard Overview
 
@@ -255,7 +364,7 @@ Using the interactive dashboard, users can:
 ![Tooltip Demo](Images/tooltip-demo.png)
 ---
 
-# Repository Structure
+## Project Structure
 
 ```text
 lego-sets-business-analytics-dashboard
@@ -277,7 +386,7 @@ lego-sets-business-analytics-dashboard
 ```
 ---
 
-# How to Use
+## How to Use
 
 1. Clone or download this repository.
 2. Open the `LEGO Sets Dashboard.pbix` file using Microsoft Power BI Desktop.
@@ -288,7 +397,7 @@ lego-sets-business-analytics-dashboard
 
 ---
 
-# Future Enhancements
+## Future Enhancements
 
 Potential improvements for future versions include:
 
@@ -297,27 +406,26 @@ Potential improvements for future versions include:
 - Create a dedicated theme comparison dashboard.
 - Integrate external LEGO datasets for richer insights.
 - Publish the report to the Power BI Service for web-based access.
+
 ---
 
-# Future Enhancements
-
-Potential improvements for future versions include:
-
-- Add yearly trend analysis with interactive line charts.
-- Include advanced DAX measures for price-per-piece analysis.
-- Create a dedicated theme comparison dashboard.
-- Integrate external LEGO datasets for richer insights.
-- Publish the report to the Power BI Service for web-based access.
----
-
-# About This Project
+## About This Project
 
 This project was developed as part of my Business Analytics portfolio to demonstrate practical skills in data preparation, business intelligence, and interactive dashboard development using Power BI.
 
 The focus was on transforming raw data into meaningful insights through effective data cleaning, DAX calculations, and user-centric dashboard design.
 
 ---
+## Author
 
-# License
+**Mrinal Sen Gupta**
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+Business Analytics | Power BI | SQL | Excel | Data Visualization | Business Intelligence
+
+- LinkedIn: (add your profile)
+- GitHub: (add your profile)
+
+Feel free to connect or explore my other analytics projects.
+
+---
+If you found this project helpful, consider giving it a ⭐ on GitHub.
