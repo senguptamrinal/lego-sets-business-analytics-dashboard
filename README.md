@@ -422,8 +422,8 @@ The focus was on transforming raw data into meaningful insights through effectiv
 
 Aspiring Business Analyst | Power BI | SQL | Excel | Data Visualization | Business Intelligence
 
-- LinkedIn: (add your profile)
-- GitHub: (add your profile)
+- LinkedIn: ([MRINAL SEN GUPTA](https://www.linkedin.com/in/mrinal-sen-gupta-791606208/))
+- GitHub: ([senguptamrinal](https://github.com/senguptamrinal))
 
 Feel free to connect or explore my other analytics projects.
 
