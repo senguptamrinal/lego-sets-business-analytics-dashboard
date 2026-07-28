@@ -341,7 +341,7 @@ This dashboard transforms raw LEGO product data into an interactive business int
 
 The following screenshots highlight the dashboard's interactive features, including KPI cards, dynamic filters, product details, decomposition tree analysis, and custom image tooltips.
 
-## Dashboard Overview
+## Main Dashboard
 
 ![Dashboard Overview](Images/dashboard-overview.png)
 
@@ -420,7 +420,7 @@ The focus was on transforming raw data into meaningful insights through effectiv
 
 **Mrinal Sen Gupta**
 
-Business Analytics | Power BI | SQL | Excel | Data Visualization | Business Intelligence
+Aspiring Business Analyst | Power BI | SQL | Excel | Data Visualization | Business Intelligence
 
 - LinkedIn: (add your profile)
 - GitHub: (add your profile)
@@ -429,3 +429,11 @@ Feel free to connect or explore my other analytics projects.
 
 ---
 If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+---
+
+## Dataset Source
+
+This project uses a LEGO dataset provided for educational and analytical purposes.
+
+*Note: Dataset ownership belongs to mavenanalytics.*
